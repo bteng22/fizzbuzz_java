@@ -21,4 +21,8 @@ public class FizzBuzzTest {
         assertEquals("1", fizzBuzz.evaluate(1));
     }
 
+    @Test
+    public void twoReturnsTwo() {
+        assertEquals("2", fizzBuzz.evaluate(2));
+    }
 }
